@@ -1,0 +1,68 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+body {
+    background-color: teal;
+}
+h1 {
+    text-align: center;
+}
+
+#menuBG {
+    width: 400px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+/* had to increase the menu container width */
+#frmMenu {
+    width: 600px;
+    height: 200px;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 100px auto;
+    float: right;
+}
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+/* my intuition tells me this should be float: right; but for some reason left works */
+.middle {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.right {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: left;
+}
+
+#cart {
+    top: 0;
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+}
+
+#btnOrder {
+    margin: 10px 0 0 200px;
+    width: 100px;
+    height: 40px;
+    color: #000;
+}
